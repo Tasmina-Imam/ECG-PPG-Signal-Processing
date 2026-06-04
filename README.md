@@ -1,9 +1,48 @@
 # ECG_PPG_Signal_Processing 
-## Intro: 
-An investigation of any external trigger (drinking green tea) on the human body using ECG & PPG Signal through feature extraction (PAT, HR, PWV calculation)
-This scripts is based on pre-processing ECG, PPG, derivatives of PPG, and find some feature extraction- pulse arrival time(PAT), pulse transit time, pulse width velocity, Heart Rate. Initially, the raw data-set is collected from different subjects using ECG sensor and ppg sensor via NI-DAQ 601. PPG, ECG were taken before and 30 mins after having an external trigger (green tea) from human hands (finger and forearms) for 1 min. 
-## What to do with the uploaded codes?
-You can preprocess ECG and PPG signals. Data set can be found from ECG/PPG data-bank or you have to collect the data from any ecg sensor and ppg sensor
+## Overview
 
-## What Features have been extracted from the preprcessed Data?
-Pulse Arival Time (PAT), Heart Rate (HR) , Pulse Width Velocity (PWV)
+This project investigates the physiological effects of an external stimulus (green tea consumption) using Electrocardiogram (ECG) and Photoplethysmography (PPG) signals. The study focuses on signal preprocessing, feature extraction, and cardiovascular parameter analysis before and after stimulus exposure.
+
+## Project Objective
+
+The objective is to analyze changes in cardiovascular characteristics by extracting clinically relevant features from synchronized ECG and PPG signals collected from human subjects.
+
+## Data Acquisition
+
+Data were acquired using ECG and PPG sensors connected through an NI-DAQ USB-6001 data acquisition device.
+
+Measurements were collected:
+
+* Before green tea consumption
+* 30 minutes after green tea consumption
+
+Signals were recorded from the finger and forearm for approximately one minute per session.
+
+## Signal Processing Pipeline
+
+* ECG signal preprocessing and filtering
+* PPG signal preprocessing and filtering
+* Derivative-based PPG analysis
+* Peak detection and signal alignment
+* Feature extraction and physiological parameter estimation
+
+## Extracted Features
+
+* Pulse Arrival Time (PAT)
+* Pulse Wave Velocity (PWV)
+* Heart Rate (HR)
+* Pulse Transit Time (PTT)
+
+## Tools and Technologies
+
+* MATLAB
+* Signal Processing
+* Biomedical Signal Analysis
+* NI-DAQ USB-6001
+* ECG Sensors
+* PPG Sensors
+
+## Applications
+
+This work demonstrates the use of non-invasive physiological signals for cardiovascular monitoring and biomedical research.
+
