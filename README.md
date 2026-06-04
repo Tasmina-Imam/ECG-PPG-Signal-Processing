@@ -45,4 +45,8 @@ Signals were recorded from the finger and forearm for approximately one minute p
 ## Applications
 
 This work demonstrates the use of non-invasive physiological signals for cardiovascular monitoring and biomedical research.
-
+## Publication
+This work was presented at the 2022 IEEE Region 10 Symposium (TENSYMP).
+**Citation**
+T. Imam et al., "Investigation of Physiological Changes Using ECG and PPG Signal Analysis Following Green Tea Consumption," IEEE TENSYMP 2022.
+DOI: 10.1109/TENSYMP54529.2022.9864568
