@@ -17,7 +17,15 @@ Measurements were collected:
 * 30 minutes after green tea consumption
 
 Signals were recorded from the finger and forearm for approximately one minute per session.
+## Experimental Workflow
 
+![Workflow](FlowDiagram.png)
+
+## Experimental Setup
+
+![Experimental Setup](experimental%20Setup.jpg)
+
+Figure: Simultaneous ECG and PPG acquisition using NI-DAQ USB-6001 and physiological sensors.
 ## Signal Processing Pipeline
 
 * ECG signal preprocessing and filtering
