@@ -49,4 +49,4 @@ This work demonstrates the use of non-invasive physiological signals for cardiov
 This work was presented at the 2022 IEEE Region 10 Symposium (TENSYMP).
 **Citation**
 T. Imam et al., "Investigation of Physiological Changes Using ECG and PPG Signal Analysis Following Green Tea Consumption," IEEE TENSYMP 2022.
-DOI: 10.1109/TENSYMP54529.2022.9864568
+DOI: [10.1109/TENSYMP54529.2022.9864568](https://doi.org/10.1109/TENSYMP54529.2022.9864568)
